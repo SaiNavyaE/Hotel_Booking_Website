@@ -1,8 +1,16 @@
 #plogo{
-    height: 150px;
-    width: 200px;
+    height: 60px;
+    width: 60px;
 }
 .logos{
     height: 20px;
     width: 22px;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+}
+#radblu{
+    height: 500px;
+    width: 500px;
 }

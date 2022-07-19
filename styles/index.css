@@ -3,10 +3,18 @@
     width: 200px;
 }
 .cities{
-    height: 300px;
-    width: 300px;
+    height: 150px;
+    width: 150px;
 }
 .logos{
     height: 20px;
     width: 22px;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
 }

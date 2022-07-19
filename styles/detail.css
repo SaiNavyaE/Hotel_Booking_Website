@@ -1,8 +1,16 @@
 #dlogo{
-    height: 150px;
-    width: 200px;
+    height: 60px;
+    width: 60px;
 }
 .logos{
     height: 20px;
     width: 22px;
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+}
+#radblu{
+    height: 500px;
+    width: 500px;
 }
