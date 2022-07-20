@@ -3,25 +3,27 @@
     <head>
         <title>List</title>
         <link rel="stylesheet" href="styles/list.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <div id="container">
         <header>
-            <div id="l1">
-                <a href="index.html"><img id="llogo" src="./assests/images/logo.png" alt="logo"></a>
-                <a href="login.html" >Login</a>
+            <div id="l1" class="headerdiv">
+                <span><a href="index.html"><img id="llogo" src="./assests/images/logo.png" alt="logo"></a></span>
+                <span><a id="login" href="login.html" >Login</a></span>
             </div>
         </header>
 
             <div id="l2">
-                <ul type="disc">
-                    <li><a href="#delhiHotels">List View</a></li>
-                    <li><a href="#map">Map View</a></li>
-                </ul>
+                <br>
+                <div id="listmapviews">
+                    <span><a id="listview" href="#delhiHotels">List View</a></span>
+                    <span><a id="mapview" href="#map">Map View</a></span>
+                </div>
                     <br>
-            <div id="delhiHotels">
-             <a href="detail.html"><div class="hotelBlock" id="radissonid">
+            <div id="delhiHotels"  class="delhihotels">
+                <a href="detail.html" id="radissonanchor"><div class="hotelBlock" id="radissonid">
                 <img class="hotels" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br>
                 <h3>Radisson Blu Hotel</h3>
                 <p>5 Star</p> 
@@ -41,18 +43,19 @@
             </div>
             </div>
                 <img id="map" src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"><br>
-                <p>MAP VIEW</p>
-
+            
             </div>
         <footer>      
-            <div id="l3">
-                <a href="contact.html">Contact Us</a>
-                <br>
+            <div id="3" class="footerdiv">
+                <div id="f1"><a id="contactus" href="contact.html" >Contact Us</a></div>
+                <div id="f2"> © 2020 ROOM SEARCH PVT.LTD</div>
+                <div id="f3">
                 <a href="https://www.facebook.com" target="_blank"><img class="logos" src="./assests/images/facebook.png"></a>
                 <a href="https://www.instagram.com" target="_blank"><img class="logos" src="./assests/images/instagram.png"></a>
                 <a href="https://twitter.com" target="_blank"><img class="logos" src="./assests/images/twitter.png"></a>
-                <br>
-                © 2020 ROOM SEARCH PVT.LTD
+                </div>
+               
+               
             </div>
         </footer> 
         </div>
