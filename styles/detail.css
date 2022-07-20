@@ -7,10 +7,26 @@
     width: 22px;
 }
 #container{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 #radblu{
     height: 500px;
     width: 500px;
+    margin-top: 2%;
+}
+#details{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 1%;
+}
+header,footer{
+    background-color: rosybrown;
+}
+body{
+    background-color: #e0e0e0;
+    margin: 0;
+}
+#desc{
+    margin: 1% 4% 2% 4%;
 }

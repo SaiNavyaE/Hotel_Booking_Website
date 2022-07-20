@@ -11,6 +11,18 @@
     width: 250px;
 }
 #container{
-    width: 100vw;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #e0e0e0;
+    margin: 0;
+}
+header,footer{
+    background-color: rosybrown;
+}
+.hotelBlock{
+    background-color: rgb(132,136,139);
+    margin: 2%;
+    width: 40%;
 }
