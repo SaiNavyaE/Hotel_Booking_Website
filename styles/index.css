@@ -5,14 +5,7 @@
 .cities{
     height: 150px;
     width: 150px;
-    padding: 4%;
     border-radius: 25%;
-}
-#c1{
-    margin-left: 15%;
-}
-c4{
-    margin-right: 15%;
 }
 .logos{
     height: 20px;
@@ -75,22 +68,20 @@ footer{
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .headerdiv{
     display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
- 
-    margin-right: 1%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 2%;
  
 }
 #f2{
     font-size: 10px;
-    align-self: flex-end;
-    margin-bottom: 0.4%;
 }
 #city{
     border: 1px transparent solid;
@@ -104,4 +95,62 @@ footer{
 #vmorediv{
     text-align: center;
 }
-
+input:focus{
+    outline: none;
+}
+.citycardsdiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#c1{
+    box-shadow: 10px 10px 10px grey;
+    border: 0px;
+}
+#c2{
+    box-shadow: 10px 10px 10px grey;
+    content: Delhi;
+}
+#c3{
+    box-shadow: 10px 10px 10px grey;
+    content: Delhi;
+}
+#c4{
+    box-shadow: 10px 10px 10px grey;
+}
+.imagecontent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+}
+.imagetext{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; 
+  border-radius: 25%;
+  text-align: center;
+  opacity: 0;
+  
+}
+.imagecontent:hover .imagetext{
+    opacity: 1;
+}
+a{
+    text-decoration: none;
+}
+.cityspan{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}

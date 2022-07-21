@@ -15,31 +15,33 @@
             </div>
         </header>
             <div id="d2">
-            <form id="details" action="payment.html">
-                <img id="radblu" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"> <br>
-                <label for="num">Adults:</label>
-                <input type="number" id="num" min="1">
-                <br>
-                <label for="dname">Name:</label>
-                <input type="text" id="dname" required>
-                <br>
-                <label for="fdate">From Date:</label>
-                <input type="date" id="fdate" placeholder="dd-mm-yyyy" required>
-                <br>
-                <label for="tdate">To Date:</label>
-                <input type="date" id="tdate" placeholder="dd-mm-yyyy" required>
-                <br>
-                <label for="ttl">Total:</label>
-                <input type="text" id="ttl"  >
-                <br>
+                <br><br>
+            <form id="details" class="radclass" action="payment.html">
+                <span class="imgradclass"><img id="radblu" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"></span>
+                <span class="formfillup">
+                <div><label for="num">Adults:      </label>
+                <input type="number" id="num" min="1"></div>
+                
+                <div><label for="dname">Name:</label>
+                <input type="text" id="dname" required></div>
+                
+                <div><label for="fdate">From Date:</label>
+                <input type="date" id="fdate" placeholder="dd-mm-yyyy" required></div>
+                
+                <div><label for="tdate">To Date:</label>
+                <input type="date" id="tdate" placeholder="dd-mm-yyyy" required></div>
+                
+                <div><label for="ttl">Total:</label>
+                <input type="text" id="ttl"  ></div>
+               
                 <input type="submit" value="Book Now">
-                <br>
+                </span>
             </form>
             <div id="desc">
                 <h2>Radisson Blu Hotel</h2> 
-                <p>RATING</p>
+                <h5 class="headings">RATING</h5>
                 <p>5 star </p>
-                AMENITIES <br>
+                <h5 class="headings">AMENITIES</h5>
                 <ul type="disc">
                     <li>Room service</li>
                     <li>Restaurant</li>
@@ -47,7 +49,7 @@
                     <li>Fitness center</li>
                     <li>Pool</li>
                 </ul>
-                <h5>DESCRIPTION</h5>
+                <h5 class="headings">DESCRIPTION</h5>
                 <p>this is radisson blue hotel</p>
             </div>
             </div>
