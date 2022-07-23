@@ -8,6 +8,11 @@ div{
     border-top-color: #444444;
     margin-top: 20%;
     margin-bottom: 20%;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin{
+    0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 body{
     font-family: 'Ubuntu', sans-serif;

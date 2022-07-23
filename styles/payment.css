@@ -95,3 +95,16 @@ footer{
     border-radius: 5px;
     background-color: rosybrown;
 }
+#exampleModal{
+    z-index: 20000;
+}
+#modalfooter{
+    display: flex;
+    justify-content: center;    
+}
+#modalbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -27,6 +27,9 @@ header,footer{
     margin: 2%;
     width: 40%;
 }
+.hotelBlock:hover{
+    background-color: rosybrown;
+}
 header{
     position: sticky; top: 0;
 }
@@ -76,16 +79,23 @@ footer{
 #listmapviews{
     text-align: center;
 }
-
-#map{
-    display: none;
-}
 #radissonanchor{
     text-decoration: none;
     color: black;
 }
-.hotelBlock{
-    display: inline-block;
+
+#exampleModal{
+    z-index: 20000;
+}
+#modalfooter{
+    display: flex;
+    justify-content: center;    
+}
+#modalbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .hotelBlock{
     display: flex;
@@ -94,7 +104,16 @@ footer{
 }
 .hotelspan{
     margin-left: 3%;
+    margin-top: 3%;
 }
-.hotelclass{
-    display: inline
+ul{
+    display: flex;
+    justify-content: center;
 }
+#pills-home-tab{
+   color: black;
+}
+#pills-profile-tab{
+    color: black;
+}
+

@@ -154,3 +154,16 @@ a{
  -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+#exampleModal{
+    z-index: 20000;
+}
+#modalfooter{
+    display: flex;
+    justify-content: center;    
+}
+#modalbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
