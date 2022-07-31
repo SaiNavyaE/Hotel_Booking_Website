@@ -1,42 +1,53 @@
-#llogo{
+#llogo {
     height: 60px;
     width: 60px;
 }
-.logos{
+
+.logos {
     height: 20px;
     width: 22px;
 }
-.hotels{
-    height: 200px;
-    width: 250px;
-}
-#container{
+
+#container {
     height: 100%;
     width: 100%;
 }
-body{
+
+body {
     background-color: #e0e0e0;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
-header,footer{
+
+header,
+footer {
     background-color: rosybrown;
 }
-.hotelBlock{
-    background-color: lightgrey;
+
+.hotelBlock {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
     margin: 2%;
-    width: 40%;
+    width: 100%;
+    height: auto;
 }
-.hotelBlock:hover{
+
+.hotelBlock:hover {
     background-color: rosybrown;
 }
-header{
-    position: sticky; top: 0;
+
+header {
+    position: sticky;
+    top: 0;
 }
-footer{
-      position: sticky; bottom: 0;
+
+footer {
+    position: sticky;
+    bottom: 0;
 }
-.footerdiv{
+
+.footerdiv {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,14 +56,17 @@ footer{
     margin-left: 2%;
     margin-right: 2%;
 }
-#f2{
+
+#f2 {
     font-size: 10px;
 }
+
 #contactus {
     text-decoration: none;
     color: black;
 }
-.headerdiv{
+
+.headerdiv {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -60,60 +74,124 @@ footer{
     margin-left: 1%;
     margin-right: 2%;
 }
-#login{
+
+#login {
     text-decoration: none;
-    color: black;  
+    color: black;
 }
-#listview{
+
+#listview {
     text-decoration: none;
     color: black;
     font-weight: bold;
     margin-right: 1%;
 }
-#mapview{
+
+#mapview {
     text-decoration: none;
     color: black;
     font-weight: bold;
     margin-left: 1%;
 }
-#listmapviews{
+
+#listmapviews {
     text-align: center;
 }
-#radissonanchor{
+
+#radissonanchor {
     text-decoration: none;
     color: black;
 }
 
-#exampleModal{
+#exampleModal {
     z-index: 20000;
 }
-#modalfooter{
+
+#modalfooter {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
-#modalbody{
+
+#modalbody {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.hotelBlock{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
+.hotelspan {
+    margin: 3%;
 }
-.hotelspan{
-    margin-left: 3%;
-    margin-top: 3%;
-}
-ul{
+
+ul {
     display: flex;
     justify-content: center;
 }
-#pills-home-tab{
-   color: black;
-}
-#pills-profile-tab{
+
+#pills-home-tab {
     color: black;
 }
 
+#pills-profile-tab {
+    color: black;
+}
+
+
+#ab {
+    width: 45%;
+    margin: 2%;
+}
+.checked{
+    color: orange;
+}
+.checked1.half:after
+{
+margin-left:-24px;
+width:12px;
+color: orange;
+}
+.checked1{
+width : 24px;
+ }
+ .check{
+    color: orange;
+ }
+
+.delhiHotels {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.hotels {
+    height: 200px;
+    width: 250px;
+}
+@media only screen and (max-width: 576px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ 
+}

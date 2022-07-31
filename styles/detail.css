@@ -15,6 +15,11 @@
     width: 500px;
     margin-top: 2%;
 }
+.w-100{
+    max-height: 350px;
+    width: 500px;
+    margin-top: 2%;
+}
 #details{
     margin-left: 4%;
     margin-right: 4%;
@@ -71,12 +76,12 @@ footer{
     border: 1px black solid;
     max-height: 400px;
 }
-.imgradclass{
+.w-100{
     width: 70%;
     display: flex;
     justify-content: center;
     align-items:center;
-    margin-bottom: 1%;
+    margin-bottom: 1.6%;
 }
 .formfillup{
     width: 30%;
@@ -107,4 +112,46 @@ input{
     justify-content: center;
     align-items: center;
 }
+.checked{
+    color: orange;
+}
+#carouselExampleControls{
+   
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#carid{
+    margin: 0 auto;
+    z-index: -2;
+}
+.arrows{
+    display: flex;
+    justify-content: space-between;
+}
+.carousel-control-prev{
+    color: rosybrown;
+}
+@media only screen and (max-width: 576px) {
 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ 
+}
