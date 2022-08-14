@@ -104,21 +104,11 @@ input:focus{
     margin-top: 2%;
     margin-bottom: 2%;
 }
-#c1{
+#c1, #c2, #c3, #c4, #c5, #c6, #c7, #c8{
     box-shadow: 10px 10px 10px grey;
     border: 0px;
 }
-#c2{
-    box-shadow: 10px 10px 10px grey;
-    content: Delhi;
-}
-#c3{
-    box-shadow: 10px 10px 10px grey;
-    content: Delhi;
-}
-#c4{
-    box-shadow: 10px 10px 10px grey;
-}
+
 .imagecontent{
     position: relative;
     width: 150px;
