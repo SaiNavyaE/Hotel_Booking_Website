@@ -137,7 +137,7 @@ a{
     text-decoration: none;
 }
 .cityspan{
-    position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -157,6 +157,10 @@ a{
     justify-content: center;
     align-items: center;
 }
+#nextcardsset{
+    display: none;
+}
+
 @media only screen and (max-width: 576px) {
 
 }

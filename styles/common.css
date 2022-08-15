@@ -1,0 +1,93 @@
+#logo{
+    height: 150px;
+    width: 200px;
+}
+
+.logos{
+    height: 20px;
+    width: 22px;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+#container{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #e0e0e0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+header,footer{
+    background-color: rosybrown;
+    width: 100%;
+    
+}
+html{
+    margin: 0%;
+}
+
+#login{
+    text-decoration: none;
+    color: black;  
+}
+#logo{
+   vertical-align: middle;
+}
+#contactus {
+    text-decoration: none;
+    color: black;
+}
+header{
+  position: sticky; top: 0;
+}
+footer{
+    position: sticky; bottom: 0;
+}
+.footerdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.headerdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 2%;
+ 
+}
+#f2{
+    font-size: 10px;
+}
+input:focus{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#exampleModal{
+    z-index: 20000;
+}
+#modalfooter{
+    display: flex;
+    justify-content: center;    
+}
+#modalbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#nextcardsset{
+    display: none;
+}
