@@ -1,157 +1,62 @@
-#logo{
-    height: 60px;
-    width: 60px;
-}
-.logos{
-    height: 20px;
-    width: 22px;
-}
-#container{
-    height: 100%;
-    width: 100%;
-}
-#radblu{
-    max-height: 350px;
-    width: 500px;
-    margin-top: 2%;
-}
-.w-100{
-    max-height: 350px;
-    width: 500px;
-    margin-top: 2%;
-}
-#details{
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom: 1%;
-}
-header,footer{
-    background-color: rosybrown;
-}
-body{
-    background-color: #e0e0e0;
-    margin: 0;
-    font-family: 'Ubuntu', sans-serif;
-}
-#desc{
-    margin: 1% 4% 2% 4%;
-}
-header{
-    position: sticky; top: 0;
-}
-footer{
-      position: sticky; bottom: 0;
-}
-.footerdiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-#f2{
-    font-size: 10px;
-}
-#contactus {
-    text-decoration: none;
-    color: black;
-}
-.headerdiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 1%;
-    margin-right: 2%;
-}
-#login{
-    text-decoration: none;
-    color: black;  
-}
-.radclass{
-    display: flex;
-    justify-content: space-between;
-    border: 1px black solid;
-    max-height: 400px;
-}
-.w-100{
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    margin-bottom: 1.6%;
-}
-.formfillup{
-    width: 30%;
-    max-height: 400px;    
-    border-left: 1px black solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-input{
 
-}
-.headings{
-    font-family: cursive;
-    font-weight: bold;
-}
-#exampleModal{
-    z-index: 20000;
-}
-#modalfooter{
-    display: flex;
-    justify-content: center;    
-}
-#modalbody{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
+
 .checked{
     color: orange;
 }
-#carouselExampleControls{
-   
+
+#slideshow-container, #booking-form {
+    padding: 1%;
+    text-align: center;
+    border: 1px solid black;
+    max-height: 400px;
+}
+#slideshow-container {
+    margin-left: 2%;
+    border-right: none;
+    flex-grow: 3;
+    max-width: 60%;
+}
+#booking-form {
+    margin-right: 2%;
+    flex-grow: 1;
+}
+#hotel-description {
+    margin: 2%;
+}
+#detail-container {
+    margin-top:7%;
+    margin-bottom: 7%;
+}
+#slideshow-booking {
     display: flex;
-    justify-content: center;
-    align-items:center;
+    justify-content: start;
+    align-content: center;
 }
-#carid{
-    margin: 0 auto;
-    z-index: -2;
+.slider-image {
+    max-height: 350px;
 }
-.arrows{
+.outer {
+    padding: 3%;
     display: flex;
     justify-content: space-between;
 }
-.carousel-control-prev{
-    color: rosybrown;
+#book-now {
+    margin-top: 5%;
 }
-@media only screen and (max-width: 576px) {
-
+.inner {
+    width: 60%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 576px) {
- 
+
+.carousel-control-next, .carousel-control-prev {
+    z-index: 0;
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
- 
+.carousel-image {
+    max-height: 370px;
 }

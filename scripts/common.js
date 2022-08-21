@@ -1,5 +1,16 @@
+let disableLoader = () => {
+    document.getElementById("loader").style.visibility = "hidden";
+    document.getElementsByTagName("body")[0].style.visibility = "visible";
+}
+
+let displayLoader = () => {
+    document.getElementsByTagName("body")[0].style.visibility = "hidden";
+    document.getElementById("loader").style.visibility  = "visible";
+}
+
+
 let displayHeaderTemplate = () => {
-var templateHeader=`<a href="index.html"><span><img id="logo" src="./assests/images/logo.png" alt="logo"></span></a>
+let templateHeader=`<a href="index.html"><span><img id="logo" src="./assests/images/logo.png" alt="logo"></span></a>
                 <span><button type="button" class="btn btn-light" data-toggle="modal" data-backdrop="false" data-target="#exampleModal" id="loginbutton" onclick="mainLogin(event)">LOGIN</button>
                 </span>
 
@@ -34,11 +45,11 @@ var templateHeader=`<a href="index.html"><span><img id="logo" src="./assests/ima
               </div>`;
      document.getElementById('1').innerHTML+=templateHeader;
 };
-displayHeaderTemplate();
+
 
 
 let displayFooterTemplate = () => {
-var templateFooter=`<div id="f1"><button type="button" class="btn btn-info" data-toggle="modal" data-backdrop="false" data-target="#exampleModal-2" id="loginbutton">
+let templateFooter=`<div id="f1"><button type="button" class="btn btn-info" data-toggle="modal" data-backdrop="false" data-target="#exampleModal-2" id="loginbutton">
       Contact Us
       </button></div>
       <div id="f2"> © 2020 ROOM SEARCH PVT.LTD</div>
@@ -78,7 +89,9 @@ var templateFooter=`<div id="f1"><button type="button" class="btn btn-info" data
             </div>
           </div>`;
           document.getElementById('3').innerHTML=templateFooter;
-}
+};
+displayLoader();
+displayHeaderTemplate();
 displayFooterTemplate();
 
 let mainLogin = e => {
@@ -89,10 +102,9 @@ let mainLogin = e => {
 };
 
  let login = e => {
-            // setting both username and password to admin
+           
             localStorage.setItem('username', 'admin');
             localStorage.setItem('password', 'admin');
-            // setting the user state as non logged on webpage load
             localStorage.setItem('isLogin', 'false');
 
             e.preventDefault();
@@ -112,7 +124,6 @@ let mainLogin = e => {
             }
             else {
                 alert('Incorrect credentials! Login failed!');
-                // clearing values of username & password fields from login modal
                 userElement.value = '';
                 passwordElement.value = '';
             }
@@ -133,4 +144,3 @@ let checkLogin = () => {
 }
 
 checkLogin();
-        

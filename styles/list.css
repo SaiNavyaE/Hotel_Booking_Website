@@ -1,12 +1,3 @@
-#logo {
-    height: 60px;
-    width: 60px;
-}
-
-.logos {
-    height: 20px;
-    width: 22px;
-}
 
 #container {
     height: 100%;
@@ -19,108 +10,8 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-header,
-footer {
-    background-color: rosybrown;
-}
-
-.hotelBlock {
-    display: flex;
-    flex-direction: row;
-    background-color: lightgray;
-    margin: 2%;
-    width: 100%;
-    height: auto;
-}
-
-.hotelBlock:hover {
-    background-color: rosybrown;
-}
-
-header {
-    position: sticky;
-    top: 0;
-}
-
-footer {
-    position: sticky;
-    bottom: 0;
-}
-
-.footerdiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
 #f2 {
     font-size: 10px;
-}
-
-#contactus {
-    text-decoration: none;
-    color: black;
-}
-
-.headerdiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 1%;
-    margin-right: 2%;
-}
-
-#login {
-    text-decoration: none;
-    color: black;
-}
-
-#listview {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    margin-right: 1%;
-}
-
-#mapview {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    margin-left: 1%;
-}
-
-#listmapviews {
-    text-align: center;
-}
-
-#radissonanchor {
-    text-decoration: none;
-    color: black;
-}
-
-#exampleModal {
-    z-index: 20000;
-}
-
-#modalfooter {
-    display: flex;
-    justify-content: center;
-}
-
-#modalbody {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.hotelspan {
-    margin: 3%;
 }
 
 ul {
@@ -136,11 +27,6 @@ ul {
     color: black;
 }
 
-
-#ab {
-    width: 45%;
-    margin: 2%;
-}
 .checked{
     color: orange;
 }
@@ -157,20 +43,51 @@ width : 24px;
     color: orange;
  }
 
-.delhiHotels {
-    display: flex;
-    align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+
+body{
+    background-color: lightgray;
 }
-
-
-.hotels {
+#hotel-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+    justify-content: space-around;
+}
+.hotel{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    margin-left: 2%;
+    margin-bottom: 10%;
+    width: 600px;
+    height: 200px;
+    margin-right: 2%;
+}
+.hotel-image-small {
     height: 200px;
     width: 250px;
+}
+.hotel-name-rating{
+    margin: 3%;
+    text-decoration: none;
+}
+.hotel-name-rating:hover{
+    text-decoration: none;
+}
+.hotel:hover{
+    background-color: rosybrown;
+    text-decoration: none;
+}
+#list-map {
+    position: relative;
+    top: 0%;
+}
+#map {
+    height: 82vh;
+    margin-top: 2%;
+}
+#pills-tab {
+    justify-content: center;
 }
 @media only screen and (max-width: 576px) {
 

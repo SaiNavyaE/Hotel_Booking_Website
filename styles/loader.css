@@ -1,10 +1,14 @@
-div{
+#loader{
     width: 70px;
     height: 70px; 
-    
+    position: absolute;
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
     border: 12px #f3f3f3 solid;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: auto;
     border-top-color: #444444;
     margin-top: 20%;
     margin-bottom: 20%;
